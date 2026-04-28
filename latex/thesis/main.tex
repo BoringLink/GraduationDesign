@@ -6,13 +6,18 @@
 \begin{document}
 
 \frontmatter
+\pagenumbering{Roman}
+\thispagestyle{empty}
 \input{styles/cover}
+\pagestyle{frontmatterstyle}
 \input{chapters/abstract}
 
 \tableofcontents
 \clearpage
 
 \mainmatter
+\pagestyle{mainmatterstyle}
+\setcounter{page}{1}
 \input{chapters/body}
 \backmatter
 {\sloppy\input{chapters/backmatter}}

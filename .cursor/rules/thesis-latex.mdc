@@ -1,0 +1,17 @@
+---
+description: 论文项目环境与工具基线（LaTeX）
+globs: latex/thesis/**
+alwaysApply: false
+---
+
+# Thesis 环境与工具
+
+- 论文环境基线：`macOS (M1 Pro)` + `MacTeX`，编译引擎为 `XeLaTeX`（通过 `latexmk`）。
+- 编译与清理命令以 `latex/thesis/README.md` 为准，并与 `latex/thesis/latexmkrc` 保持一致。
+- 在 `latex/thesis` 目录执行标准编译命令：`latexmk -xelatex -interaction=nonstopmode -file-line-error -outdir=build main.tex`。
+- 文献管理工具：`BibDesk`（macOS）。
+- 文献检索能力：可使用 `ArXiv` 与 `Semantic Scholar`，相关本地配置见 `.env.semantic-scholar.local`。
+- 论文优化能力：可使用 thesis optimizer（AI 检测优化、查重优化、学术润色）。
+- 图表优先使用 TikZ；图片题注放下方居中，表格题注放上方居中，使用 LaTeX 自动编号。
+- 参考文献引用要规范，且正文内容需与被引文献真实对应。
+- 论文排版应对齐 `理工类专业毕业论文模板（更新）.doc` 的格式要求。

@@ -1,0 +1,13 @@
+---
+description: CodingPlatformBak 默认只读执行规则
+globs: CodingPlatformBak/**
+alwaysApply: false
+---
+
+# CodingPlatformBak 只读规则
+
+- `CodingPlatformBak` 用于支撑论文，默认仅做代码阅读、命令执行、开发联调与测试验证。
+- 未获用户明确授权，不修改 `CodingPlatformBak` 下任何源码、配置或脚本文件。
+- 允许操作：查看实现、定位问题、运行 `dev/build/test/lint` 等项目既有命令、反馈结果。
+- 禁止操作：重构、功能新增、风格化批量改写、依赖升级、目录结构调整。
+- 若确需修改代码，先得到用户明确确认，并将变更范围限制在最小必要集。

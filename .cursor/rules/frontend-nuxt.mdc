@@ -1,0 +1,13 @@
+---
+description: Nuxt 3 前端代码风格与执行约定
+globs: CodingPlatformBak/frontend/**
+alwaysApply: false
+---
+
+# Frontend Nuxt 规则
+
+- 本目录默认以“查看与执行”为主，不主动进行代码改写。
+- 前端脚本与配置优先查看 `CodingPlatformBak/frontend/package.json` 与 `nuxt.config.ts`。
+- 代码风格遵循现有 ESLint stylistic 偏好：tabs + semicolons。
+- 若用户明确要求前端改动，优先沿用现有组件与目录约定，不随意新增平行结构。
+- 若发生改动，提交前确保格式与 lint 结果一致，避免把风格变更和功能变更混在一起。

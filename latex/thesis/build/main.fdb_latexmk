@@ -1,10 +1,18 @@
 # Fdb version 4
-["xdvipdfmx"] 1777383710.88995 "build/main.xdv" "build/main.pdf" "build/main" 1777383711.59435 0
-  "build/main.xdv" 1777383710.77335 626756 45e8dc78a8b8e78abaa133b25532c77b "xelatex"
+["bibtex build/main"] 1777404672.13038 "build/main.aux" "build/main.bbl" "build/main" 1777404674.80437 0
+  "./references.bib" 1777402803.87955 8468 f750ccb087f6369135eb46ade88f41f2 ""
+  "/usr/local/texlive/2026/texmf-dist/bibtex/bst/gbt7714/gbt7714-numerical.bst" 1768771221 58899 d0fae0cf8d28654026c4bf03972fb16c ""
+  "build/main.aux" 1777404673.68432 12968 6da555947de1f2164e0048b082c4c8e3 "xelatex"
+  (generated)
+  "build/main.bbl"
+  "build/main.blg"
+  (rewritten before read)
+["xdvipdfmx"] 1777404674.06406 "build/main.xdv" "build/main.pdf" "build/main" 1777404674.8061 0
+  "build/main.xdv" 1777404673.68629 384452 62a524278e6a4fe0cfdf8af83157b2f1 "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1777383709.41085 "main.tex" "build/main.xdv" "main" 1777383711.59264 0
+["xelatex"] 1777404672.39063 "main.tex" "build/main.xdv" "main" 1777404674.80445 0
   "../../CodingPlatformBak/output/playwright/recapture/login_filled_new.png" 1776254825.68673 46022 46605fd7d58ac837e7e7bf8761892c1f ""
   "../../CodingPlatformBak/output/playwright/recapture/login_local_new.png" 1776254667.19443 33509 177a8d2b9c032c7b326ddb86e87aa70c ""
   "../../CodingPlatformBak/output/playwright/recapture/stu_new.png" 1776254667.24851 33509 177a8d2b9c032c7b326ddb86e87aa70c ""
@@ -142,6 +150,7 @@
   "/usr/local/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty" 1759176595 164714 a0cc5579dc5aec4384653d8dd1b3832a ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1532898934 549 c4adac819276241fea8eb79c5ab7b99e ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty" 1759176595 3804 debc05110ffb506cef68ea4e72c7bcee ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/gbt7714/gbt7714.sty" 1768771221 11386 8dc84ebe516a75ac0f419e22c4187d49 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty" 1772916678 41904 7711079366884e0d15963c9d40019853 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -164,6 +173,7 @@
   "/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty" 1769028462 6558 45786cbbf5684a09ee65aa45a7b367e0 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1761248321 10176 c2fc1c663b3f3899ddac6e6ed3fb1d7e ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty" 1761248321 1308 337b03b34dc540b10238bf7d9a26a076 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty" 1291685959 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty" 1750707802 6572 d45c2321088e3d0226f5e476049fa5ec ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty" 1750707802 2122 fa66f24d79b913f2d7ab2599d50e1aed ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty" 1601326656 1090 bae35ef70b3168089ef166db3e66f5b2 ""
@@ -194,23 +204,19 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/xetex/xelatex.fmt" 1775409896 5948569 3f0a3c9289d15f02aa66c588e507ee9a ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "build/main.aux" 1777383710.77081 19344 34ce3ddbc34fb647cdef976717d9fafc "xelatex"
-  "build/main.toc" 1777383710.77309 6177 11c9da2023b17ef61a2c6b86d20e0234 "xelatex"
-  "chapters/abstract.tex" 1776769035.26874 4712 1b3850783b0e1ec5c3b3c52c9471708b ""
-  "chapters/backmatter.tex" 1777192049.08036 14635 febd5cbef370b5adc406b64767c85ca8 ""
-  "chapters/body.tex" 1777382590.53538 53 682ed14af9ac44c37404259254d4e95f ""
-  "chapters/draft.tex" 1777382590.53586 66016 8792f06db7f1f749d3ddc25ba6260081 ""
-  "figures/backmatter/ui_event_records-cropped.pdf" 1777175071.59692 38986 adbd9ae143c09fc6ed5cd635f20dae62 ""
-  "figures/backmatter/ui_login-cropped.pdf" 1777175071.80927 12652 2d028819420f4271b5725393c3f240b6 ""
-  "figures/body/在线编程与代码运行流程图.pdf" 1777148038.0002 66783 086c21db64565999aab58c4d64dde120 ""
-  "figures/body/数据库概念结构图.pdf" 1777377539.06588 68932 1e1615a2f7aeb028ad9d0570d02a4d0e ""
-  "figures/body/智能辅学模块处理流程图.pdf" 1777148038.07535 47959 503e6bf965cea2a9a6b0eafa0470cd42 ""
-  "figures/body/系统功能模块图.pdf" 1777148038.13426 142448 9bad55eb93a0d7efe6eb03b61619c7d5 ""
-  "figures/body/系统总体架构图.pdf" 1777148039.14089 129474 e2f6da5d79c9e7b63171c861d84e9415 ""
-  "main.tex" 1775410554.14354 326 4b3d423732298971b25efdac51bce7ff ""
-  "metadata.tex" 1775892006.57003 620 3954a33a9692ee859bb92187a238138e ""
-  "styles/cover.tex" 1775890988.95333 1097 4044ba1bfc9517b9fb941519afcc64ca ""
-  "styles/hdu-thesis.sty" 1777362570.25231 5579 7bd52ae9d96d45a910ca4f6a338ccfce ""
+  "build/main.aux" 1777404673.68432 12968 6da555947de1f2164e0048b082c4c8e3 "xelatex"
+  "build/main.bbl" 1777404672.38289 8897 b6063cc93d38d2317655f317492449cd "bibtex build/main"
+  "build/main.toc" 1777404673.686 5136 4cfb46057612507b5f937cc18c322c4a "xelatex"
+  "chapters/abstract.tex" 1777402803.84945 5175 dca7ef398634e0610b623c99968c5c5c ""
+  "chapters/backmatter.tex" 1777404108.41856 9252 ba186ee69898973804b67298e317b192 ""
+  "chapters/body.tex" 1777402803.85076 53 682ed14af9ac44c37404259254d4e95f ""
+  "chapters/draft.tex" 1777402803.85107 12422 22fb8b395952782d89b7499e0e1f1855 ""
+  "figures/backmatter/ui_event_records-cropped.pdf" 1777402803.85197 38986 adbd9ae143c09fc6ed5cd635f20dae62 ""
+  "figures/backmatter/ui_login-cropped.pdf" 1777402803.85367 12652 2d028819420f4271b5725393c3f240b6 ""
+  "main.tex" 1777403748.60186 448 2249f789e39cb516828dbf307ca4beb9 ""
+  "metadata.tex" 1777402803.87913 620 3954a33a9692ee859bb92187a238138e ""
+  "styles/cover.tex" 1777402803.87982 1097 4044ba1bfc9517b9fb941519afcc64ca ""
+  "styles/hdu-thesis.sty" 1777404477.94395 6568 ad553c03a6fdb417223871982c6e5470 ""
   (generated)
   "build/main.aux"
   "build/main.log"

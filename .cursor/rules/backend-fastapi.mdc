@@ -1,0 +1,13 @@
+---
+description: FastAPI 后端约定与测试习惯
+globs: CodingPlatformBak/backend/**
+alwaysApply: false
+---
+
+# Backend FastAPI 规则
+
+- 本目录默认以“查看与执行”为主，不主动进行代码改写。
+- 入口文件优先查看 `CodingPlatformBak/backend/main.py`，用于理解后端服务结构。
+- 测试目录在 `CodingPlatformBak/backend/tests/`，命名遵循 `test_*.py` / `test_*`。
+- 运行测试默认使用项目配置的 pytest 风格（`-v --tb=short` 语义）。
+- 若用户明确要求改动后端逻辑，先最小化变更范围，并优先补充或更新对应测试再回归检查。

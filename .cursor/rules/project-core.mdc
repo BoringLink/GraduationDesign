@@ -1,0 +1,21 @@
+---
+description: 项目通用执行规则（多域仓库）
+alwaysApply: true
+---
+
+# 毕业设计项目通用规则
+
+- 本项目主目标是论文写作，默认工作域为 `latex/thesis`，优先处理论文相关任务。
+- 论文相关请求优先明确“环境与工具信息”（如 `macOS (M1 Pro)`、`MacTeX`、`BibDesk`、文献检索与优化工具）。
+- `CodingPlatformBak` 是论文对应代码仓库，默认仅允许查看、运行和测试，不进行代码改写。
+- 仅当用户明确提出“修改代码”时，才允许在 `CodingPlatformBak` 内执行编辑操作。
+- 仓库是多域项目（论文 + 前端 + 后端），先判断当前编辑路径，再采用最近的 `AGENTS.md` 约束。
+- 若根与子目录规则冲突，子目录规则优先；不要把根规则重复写进子规则。
+- 不要把 `node_modules`、`.venv`、`build`、`__pycache__` 等生成物当作源码修改目标。
+- 优先遵循仓库内既有工具链与脚本，不随意引入平行流程。
+
+# 执行前检查
+
+- 开始任务前，先确认任务域：`latex/thesis`、`CodingPlatformBak/backend`、`CodingPlatformBak/frontend` 之一。
+- 若任务域在 `CodingPlatformBak/**`，先按“只读执行”处理（查阅、启动、测试、验证）。
+- 需要运行命令时，优先使用该域文档中声明的入口命令。
