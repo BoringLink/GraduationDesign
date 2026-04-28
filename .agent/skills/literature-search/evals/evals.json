@@ -1,0 +1,26 @@
+{
+  "skill_name": "literature-search",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "basic-keyword-search",
+      "prompt": "Search for papers on 'deep learning' from the last 5 years (2019-2024) in computer science. Return results in Markdown format and save to ./outputs directory.",
+      "expected_output": "Markdown file with list of papers on deep learning, including titles, authors, years, abstracts, and links. Should contain 30+ papers from arXiv and Semantic Scholar combined.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "author-filtered-search",
+      "prompt": "Find all papers by Yann LeCun on neural networks and AI published between 2015-2024. Format as JSON with citation counts from Semantic Scholar. Save results.",
+      "expected_output": "JSON file with structured paper data, including citation counts, author information, and publication venues. Should find 10-30 papers with proper citation metrics.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "multi-keyword-review-search",
+      "prompt": "Conduct a literature review search for papers on 'federated learning' AND 'privacy' from 2019-2024 in computer science. Use both arXiv and Semantic Scholar. Return Markdown format suitable for thesis background section.",
+      "expected_output": "Well-organized Markdown file with 50+ papers, organized logically, with clear abstracts and links. Should show papers from both sources with appropriate academic formatting.",
+      "files": []
+    }
+  ]
+}

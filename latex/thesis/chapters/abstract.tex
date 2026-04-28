@@ -1,0 +1,23 @@
+% !TeX root = ../main.tex
+
+\chapter*{摘要}\addcontentsline{toc}{chapter}{摘要}\label{ux6458ux8981}
+
+随着人工智能技术持续演进，大语言模型开始在代码生成、错误诊断等任务上显露潜力；在自然语言交互与个性化反馈这类环节中，这一点更为明显。对中小学生编程教育而言，这提供了一条新的技术路径。相比之下，传统编程教学在资源可得性、个性化辅导时效、学习过程量化追踪以及即时反馈效率等方面仍显不足，初学阶段也更容易出现兴趣下降与挫败感。基于此，本文设计并实现一套面向中小学生的智能编程学习平台，服务于因材施教并提升教学效率。
+
+平台采用前后端分离架构：交互界面由 Nuxt 3 与 Vue 3 构建，并结合 Tailwind CSS、DaisyUI 完成样式与组件；核心业务接口及数据管理则由 FastAPI、SQLAlchemy 承担。数据持久化选用 SQL Server；Redis 用于缓存加速，教学资源存储使用阿里云 OSS。
+
+系统功能覆盖用户认证、课程与知识点编排等教学管理能力，也提供在线编程实践、任务管理与师生互动，并配套教学资源管理。平台同时集成大模型能力，面向智能辅学场景：既支持自由问答、代码逻辑拆解，也可用于编译错误分析、问题分解引导，以及抽象建模与算法设计指导。结合中小学生认知特点，系统对提示词策略、输出语气和错误反馈方式进行了调整，使反馈更循序渐进，力求润物无声。
+
+全文围绕系统需求分析、总体设计、核心模块实现与功能验证展开。从工程落地情况看，该平台已能为学生日常编程练习与教师教学管理提供较完整的操作支撑。现阶段，系统在代码稳定运行、错误反馈、学习进度量化跟踪与资源组织方面形成了实践基础；同时，为后续接入基于 RAG 的私域知识增强、认知模板评估机制以及更细粒度的个性化推荐系统预留扩展接口。总体而言，平台运行呈现稳中有进的状态。
+
+\textbf{关键词}：大语言模型；编程教育；智能辅学；在线编程；教学平台
+
+\chapter*{ABSTRACT}\addcontentsline{toc}{chapter}{ABSTRACT}\label{abstract}
+
+As Artificial Intelligence continues to advance, Large Language Models (LLMs) have demonstrated strong potential in code generation, error diagnosis, natural language interaction, and personalized feedback, offering a new technical pathway for K-12 programming education. Conventional programming instruction, however, still faces limitations in resource accessibility, timeliness of individualized support, quantitative progress tracking, and real-time feedback efficiency. These limitations may reduce engagement and increase frustration during the beginner stage. In response, this thesis designs and implements an intelligent programming learning platform for primary and secondary school students.
+
+The platform follows a decoupled front-end/back-end architecture. The front end is built with Nuxt 3, Vue 3, Tailwind CSS, and DaisyUI for interactive interfaces, while the back end uses FastAPI and SQLAlchemy to support business APIs and data management. SQL Server is adopted for persistent storage, Redis for caching acceleration, and Alibaba Cloud OSS for educational resource storage. Core functions include user authentication, curriculum and knowledge-point organization, online coding practice, task management, teacher-student interaction, and resource management. The platform also integrates LLM capabilities to support intelligent tutoring services, including open-ended Q\&A, code logic explanation, compile-error analysis, problem decomposition guidance, abstract modeling, and algorithm-design guidance. Considering the cognitive characteristics of K-12 learners, the system applies targeted adjustments to prompt strategy, response tone, and error-feedback style.
+
+This thesis presents the full process, from requirements analysis and architecture design to core-module implementation and functional verification. From an engineering standpoint, the platform already provides practical support for students' daily coding practice and teachers' instructional management, with working foundations in execution stability, error feedback, progress tracking, and resource organization. The architecture also reserves extension points for future enhancements, including RAG-based private knowledge augmentation, cognitive-template evaluation, and finer-grained personalized recommendation.
+
+\textbf{Key words}: Large Language Model; Programming Education; Intelligent Tutoring; Online Programming; Learning Platform

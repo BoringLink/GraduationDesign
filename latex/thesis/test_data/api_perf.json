@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-06T22:19:05",
+  "env": {
+    "os": "macOS-26.4-arm64-arm-64bit-Mach-O",
+    "python": "3.14.0"
+  },
+  "endpoints": [
+    {
+      "name": "GET /health",
+      "n": 200,
+      "ok": 200,
+      "error": 0,
+      "avg_ms": 0.558,
+      "p95_ms": 0.826,
+      "max_ms": 2.75
+    },
+    {
+      "name": "GET /users/check",
+      "n": 200,
+      "ok": 200,
+      "error": 0,
+      "avg_ms": 1.175,
+      "p95_ms": 1.71,
+      "max_ms": 3.874
+    },
+    {
+      "name": "POST /platform/run (print)",
+      "n": 200,
+      "ok": 200,
+      "error": 0,
+      "avg_ms": 4.246,
+      "p95_ms": 4.794,
+      "max_ms": 8.44
+    }
+  ]
+}

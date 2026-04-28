@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "sisyphus": {
+      "model": "anthropic/claude-opus-4-5",
+      "variant": "max",
+      "thinking": {
+        "type": "enabled",
+        "budgetTokens": 32000
+      }
+    },
+    "prometheus": {
+      "model": "anthropic/claude-opus-4-5",
+      "variant": "max",
+      "description": "Strategic planner using high-IQ models"
+    },
+    "oracle": {
+      "model": "anthropic/claude-sonnet-4-5",
+      "variant": "high",
+      "description": "Architecture advisor using balanced reasoning models"
+    },
+    "explore": {
+      "model": "openai/gpt-4o-mini",
+      "description": "Fast grep/search using cost-efficient models"
+    }
+  },
+  "categories": {
+    "quick": {
+      "model": "openai/gpt-4o-mini",
+      "temperature": 0.3,
+      "description": "Trivial tasks execution using weak models"
+    },
+    "unspecified-low": {
+      "model": "anthropic/claude-sonnet-4-5",
+      "description": "Standard task reasoning using medium models"
+    },
+    "unspecified-high": {
+      "model": "anthropic/claude-opus-4-5",
+      "variant": "max",
+      "description": "Complex implementation using strong models"
+    },
+    "ultrabrain": {
+      "model": "anthropic/claude-sonnet-4-5",
+      "variant": "high",
+      "description": "Deep logic analysis using medium-high models"
+    }
+  },
+  "sisyphus_agent": {
+    "planner_enabled": true,
+    "replace_plan": true
+  },
+  "background_task": {
+    "defaultConcurrency": 5,
+    "modelConcurrency": {
+      "anthropic/claude-opus-4-5": 2
+    }
+  }
+}

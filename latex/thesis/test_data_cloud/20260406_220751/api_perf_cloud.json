@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-06T22:10:54",
+  "base": "https://codingplatform.mgsai.cn/api",
+  "endpoints": [
+    {
+      "name": "GET /health",
+      "n": 200,
+      "ok": 200,
+      "error": 0,
+      "avg_ms": 227.822,
+      "p95_ms": 270.081,
+      "max_ms": 1046.968
+    },
+    {
+      "name": "GET /users/check",
+      "n": 200,
+      "ok": 200,
+      "error": 0,
+      "avg_ms": 620.053,
+      "p95_ms": 1236.248,
+      "max_ms": 2391.69
+    },
+    {
+      "name": "POST /platform/run (print)",
+      "n": 200,
+      "ok": 200,
+      "error": 0,
+      "avg_ms": 1431.215,
+      "p95_ms": 3408.492,
+      "max_ms": 4483.325
+    }
+  ]
+}

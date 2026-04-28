@@ -1,0 +1,23 @@
+{
+  "query": [
+    "machine learning"
+  ],
+  "search_params": {
+    "keywords": [
+      "machine learning"
+    ],
+    "authors": "Geoffrey Hinton",
+    "year_min": 2015,
+    "year_max": 2024,
+    "category": null,
+    "sources": [
+      "arxiv"
+    ]
+  },
+  "results": [],
+  "by_source": {
+    "arxiv": []
+  },
+  "search_timestamp": "2026-04-21T23:55:43.191915",
+  "total_found": 0
+}

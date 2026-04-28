@@ -1,0 +1,1 @@
+{"code":200,"status":"SUCCESS","msg":"缓存统计信息获取成功","error":null,"data":{"memory_used":"1.94M","memory_peak":"4.56M","total_keys":4,"event_records_keys":1}}
