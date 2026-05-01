@@ -1,7 +1,10 @@
+# 底线
+
+- 严禁从头重写文件，除非是极短的文件
+
 # AGENTS.md（oh-my-openagents 统一规则）
 
-**Scope:** Repository root  
-**适用对象:** OpenCode + oh-my-openagents  
+**Scope:** Repository root
 **主任务:** 毕业论文写作与论文相关验证
 
 ## 1) 项目定位

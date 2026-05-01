@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex build/main"] 1777404672.13038 "build/main.aux" "build/main.bbl" "build/main" 1777404674.80437 0
-  "./references.bib" 1777402803.87955 8468 f750ccb087f6369135eb46ade88f41f2 ""
+["bibtex build/main"] 1777621202.04293 "build/main.aux" "build/main.bbl" "build/main" 1777622964.21166 0
+  "./references.bib" 1777622625.50683 8468 f750ccb087f6369135eb46ade88f41f2 ""
   "/usr/local/texlive/2026/texmf-dist/bibtex/bst/gbt7714/gbt7714-numerical.bst" 1768771221 58899 d0fae0cf8d28654026c4bf03972fb16c ""
-  "build/main.aux" 1777404673.68432 12968 6da555947de1f2164e0048b082c4c8e3 "xelatex"
+  "build/main.aux" 1777622961.87607 18871 2d6a829bee2c335644a73c50a65a0d26 "xelatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1777404674.06406 "build/main.xdv" "build/main.pdf" "build/main" 1777404674.8061 0
-  "build/main.xdv" 1777404673.68629 384452 62a524278e6a4fe0cfdf8af83157b2f1 "xelatex"
+["xdvipdfmx"] 1777622962.2467 "build/main.xdv" "build/main.pdf" "build/main" 1777622964.21359 0
+  "build/main.xdv" 1777622961.87827 627764 0f0c3305472f17b6a8a654ea01cb389b "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1777404672.39063 "main.tex" "build/main.xdv" "main" 1777404674.80445 0
+["xelatex"] 1777622960.28057 "main.tex" "build/main.xdv" "main" 1777622964.21175 0
   "../../CodingPlatformBak/output/playwright/recapture/login_filled_new.png" 1776254825.68673 46022 46605fd7d58ac837e7e7bf8761892c1f ""
   "../../CodingPlatformBak/output/playwright/recapture/login_local_new.png" 1776254667.19443 33509 177a8d2b9c032c7b326ddb86e87aa70c ""
   "../../CodingPlatformBak/output/playwright/recapture/stu_new.png" 1776254667.24851 33509 177a8d2b9c032c7b326ddb86e87aa70c ""
@@ -190,7 +190,6 @@
   "/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1750533675 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty" 1670275497 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/titlesec/titlesec.sty" 1736023606 48766 87a17a4ef312a39cd43896e34a679a56 ""
-  "/usr/local/texlive/2026/texmf-dist/tex/latex/titlesec/titletoc.sty" 1736023606 16594 e070b7268023b1ec1b45c44617ea64f9 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty" 1761946296 15651 9d7c62df82cb29a555c00550babfe364 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty" 1761946296 16014 dfa4b4d4e04a78a3f05a90c19711737a ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
@@ -204,19 +203,29 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/xetex/xelatex.fmt" 1775409896 5948569 3f0a3c9289d15f02aa66c588e507ee9a ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "build/main.aux" 1777404673.68432 12968 6da555947de1f2164e0048b082c4c8e3 "xelatex"
-  "build/main.bbl" 1777404672.38289 8897 b6063cc93d38d2317655f317492449cd "bibtex build/main"
-  "build/main.toc" 1777404673.686 5136 4cfb46057612507b5f937cc18c322c4a "xelatex"
-  "chapters/abstract.tex" 1777402803.84945 5175 dca7ef398634e0610b623c99968c5c5c ""
-  "chapters/backmatter.tex" 1777404108.41856 9252 ba186ee69898973804b67298e317b192 ""
-  "chapters/body.tex" 1777402803.85076 53 682ed14af9ac44c37404259254d4e95f ""
-  "chapters/draft.tex" 1777402803.85107 12422 22fb8b395952782d89b7499e0e1f1855 ""
-  "figures/backmatter/ui_event_records-cropped.pdf" 1777402803.85197 38986 adbd9ae143c09fc6ed5cd635f20dae62 ""
-  "figures/backmatter/ui_login-cropped.pdf" 1777402803.85367 12652 2d028819420f4271b5725393c3f240b6 ""
-  "main.tex" 1777403748.60186 448 2249f789e39cb516828dbf307ca4beb9 ""
-  "metadata.tex" 1777402803.87913 620 3954a33a9692ee859bb92187a238138e ""
-  "styles/cover.tex" 1777402803.87982 1097 4044ba1bfc9517b9fb941519afcc64ca ""
-  "styles/hdu-thesis.sty" 1777404477.94395 6568 ad553c03a6fdb417223871982c6e5470 ""
+  "build/main.aux" 1777622961.87607 18871 2d6a829bee2c335644a73c50a65a0d26 "xelatex"
+  "build/main.bbl" 1777621202.33819 8897 80136da2e86c95c9d8412d36afb98f0d "bibtex build/main"
+  "build/main.toc" 1777622961.87802 6583 1be7a127ff19a19c06f3642acb96de5d "xelatex"
+  "chapters/abstract.tex" 1777622625.48853 4659 72f92db474de4b7c928d1feb1ae71af1 ""
+  "chapters/backmatter.tex" 1777622954.81683 9142 6a07d8e7e7c46f3a7be33d4a4eaaa74a ""
+  "chapters/body.tex" 1777622625.48901 53 682ed14af9ac44c37404259254d4e95f ""
+  "chapters/draft.tex" 1777622893.52757 65764 5ea50982941932f1eff4fddb8ec7bd4a ""
+  "figures/backmatter/ui_event_records-cropped.pdf" 1777622625.4895 38986 adbd9ae143c09fc6ed5cd635f20dae62 ""
+  "figures/backmatter/ui_login-cropped.pdf" 1777622625.49023 12652 2d028819420f4271b5725393c3f240b6 ""
+  "figures/body/login.png" 1777622625.49393 126874 30e365fe210f77f454ee6fd5a202f697 ""
+  "figures/body/student_dashboard.png" 1777622625.49526 311412 f98bb4c8a513bff09f3d0b7798188088 ""
+  "figures/body/teacher_dashboard.png" 1777622625.49653 381732 746cb0062f77aaf52e163334a8c311a7 ""
+  "figures/body/teacher_resource.png" 1777622625.49706 172986 b0292d905022eada624499915f0a933b ""
+  "figures/body/在线编程与代码运行流程图.pdf" 1777622625.49889 66783 086c21db64565999aab58c4d64dde120 ""
+  "figures/body/数据库概念结构图.pdf" 1777622625.50015 68932 1e1615a2f7aeb028ad9d0570d02a4d0e ""
+  "figures/body/数据库逻辑结构图.pdf" 1777622625.5013 249576 95898a354072b3633e002d580ec9c81c ""
+  "figures/body/智能辅学模块处理流程图.pdf" 1777622625.50152 47959 503e6bf965cea2a9a6b0eafa0470cd42 ""
+  "figures/body/系统功能模块图.pdf" 1777622625.50254 142448 9bad55eb93a0d7efe6eb03b61619c7d5 ""
+  "figures/body/系统总体架构图.pdf" 1777622625.50408 129474 e2f6da5d79c9e7b63171c861d84e9415 ""
+  "main.tex" 1777622625.50546 462 e5111dc061b0a908f079c4527b632665 ""
+  "metadata.tex" 1777622625.50627 620 3954a33a9692ee859bb92187a238138e ""
+  "styles/cover.tex" 1777622625.50723 1097 4044ba1bfc9517b9fb941519afcc64ca ""
+  "styles/hdu-thesis.sty" 1777622625.5075 6516 101d4d45b900f04ea758f4de31885a17 ""
   (generated)
   "build/main.aux"
   "build/main.log"
