@@ -1,24 +1,24 @@
 \cleardoublepage
 \vspace*{2\baselineskip}
-{\centering\setstretch{1}\hei\zihao{3} 摘要\par}
+{\HduLevelOneTitleFormat 摘要\par}
 \vspace{2\baselineskip}
 
 {\song\zihao{-4}\setlength{\baselineskip}{20pt}
-大语言模型在代码生成与错误诊断上的可用性已有初步验证，自然语言交互与个性化反馈方面尤为突出。对中小学生编程教育而言，这提供了一条不同于传统路径的可能性。当前编程教学在资源可得性、个性化辅导时效、学习过程量化追踪以及即时反馈效率上仍有不足，初学阶段兴趣下降与挫败感也较为常见。本文据此设计并实现一套面向中小学生的智能编程学习平台，试图在因材施教与教学效率之间找到落点。
+大语言模型在代码生成与错误诊断上的可用性正在被反复验证，自然语言交互与个性化反馈两端尤其亮眼。这给中小学编程教育开出了一条新路子。当前编程教学在资源可得性、辅导时效、学习过程追踪和即时反馈上还欠着火候，入门阶段兴趣滑坡与挫败感并不少见。本文据此设计了一套面向中小学生的智能编程学习平台，在因材施教和教学效率之间找平衡。
 
 平台采用前后端分离架构。交互界面基于 Nuxt 3 与 Vue 3 搭建，样式与组件借助 Tailwind CSS、DaisyUI 实现；核心业务接口与数据管理由 FastAPI、SQLAlchemy 负责。数据持久化选用 SQL Server；Redis 用于缓存加速，教学资源存储使用阿里云 OSS。
 
-系统功能包括用户认证、课程与知识点编排等教学管理，在线编程实践、任务管理与师生互动，以及教学资源管理。平台还集成了大模型能力用于智能辅学：自由问答与代码逻辑拆解、编译错误分析与问题分解引导、抽象建模与算法设计指导均可通过该模块完成。考虑到中小学生的认知特点，系统对提示词策略、输出语气和错误反馈方式做了针对性调整，使反馈逐步递进而非一次倾注。
+系统功能覆盖了用户认证、课程与知识点编排等教学管理，在线编程实践、任务管理、师生互动以及教学资源管理。平台还接入了大模型以驱动智能辅学：自由问答、代码逻辑拆解、编译错误分析、问题分解引导、抽象建模与算法设计指导，都由该模块兜底。考虑到中小学生的认知节奏，系统对提示词策略、输出语气和错误反馈方式做了针对性调整，让反馈循序渐进地给，而不是一股脑灌进去。
 
 全文围绕系统需求分析、总体设计、核心模块实现与功能验证展开。从工程落地情况看，平台已能为学生日常编程练习与教师教学管理提供较完整的操作支撑，代码稳定运行、错误反馈、学习进度量化跟踪与资源组织方面已有初步实践基础。后续可在 RAG 私域知识增强、认知模板评估机制以及更细粒度的个性化推荐方向继续扩展。
 
 \vspace{20pt}
-\noindent\hei\zihao{-4} 关键词\song\zihao{-4}：大语言模型；编程教育；智能辅学；在线编程；教学平台
+\noindent{\CJKfontspec[FakeBold=2.5]{Heiti SC}\zihao{-4}关键词：}\song\zihao{-4}大语言模型；编程教育；智能辅学；在线编程；教学平台
 }
 
 \cleardoublepage
 \vspace*{2\baselineskip}
-{\centering\setstretch{1}\hei\zihao{-3} ABSTRACT\par}
+{\HduLevelOneTitleFormat ABSTRACT\par}
 \vspace{2\baselineskip}
 
 {\fontspec{Times New Roman}\zihao{-4}\setlength{\baselineskip}{20pt}
@@ -31,5 +31,5 @@ Platform functions include user authentication, curriculum and knowledge-point o
 The thesis covers requirements analysis, overall design, core-module implementation, and functional verification. The platform can already support daily coding practice and instructional management, with initial foundations in execution stability, error feedback, progress tracking, and resource organization. Future extensions may incorporate RAG-based private knowledge augmentation, cognitive-template evaluation, and finer-grained personalized recommendation.
 
 \vspace{20pt}
-\noindent\fontspec{Times New Roman}\zihao{-4} key words\fontspec{Times New Roman}\zihao{-4}: large language model; programming education; intelligent tutoring; online programming; learning platform
+\noindent\fontspec{Times New Roman}\zihao{-4}\textbf{Key Words：}\fontspec{Times New Roman}\zihao{-4}large language model; programming education; intelligent tutoring; online programming; learning platform
 }

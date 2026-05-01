@@ -1,0 +1,26 @@
+\documentclass[UTF8,zihao=-4,oneside,openany,fontset=none,secnumdepth=1]{ctexbook}
+
+\input{metadata}
+\usepackage{styles/hdu-thesis}
+
+\begin{document}
+
+\frontmatter
+\pagenumbering{Roman}
+\thispagestyle{empty}
+% 封面已跳过，正文从摘要开始
+\pagestyle{frontmatterstyle}
+\input{chapters/abstract}
+
+\tableofcontents
+\clearpage
+
+\mainmatter
+\pagestyle{mainmatterstyle}
+\setcounter{page}{1}
+\input{chapters/body}
+
+\backmatter
+{\sloppy\input{chapters/backmatter}}
+
+\end{document}

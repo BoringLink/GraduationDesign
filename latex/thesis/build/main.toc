@@ -17,17 +17,17 @@
 \contentsline {subsection}{\numberline {2.7.3}功能需求分析}{5}{subsection.2.7.3}%
 \contentsline {subsection}{\numberline {2.7.4}非功能需求分析}{7}{subsection.2.7.4}%
 \contentsline {subsection}{\numberline {2.7.5}可行性分析}{8}{subsection.2.7.5}%
-\contentsline {chapter}{\CTEX@toc@width@n {3\hspace {.3em}}\hbox to\@tempdima {3\hspace {.3em}\hfil }系统总体设计}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}系统设计目标}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}系统总体架构设计}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}系统功能模块设计}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}前后端结构设计}{10}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}前端结构设计}{10}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}后端结构设计}{12}{subsection.3.4.2}%
-\contentsline {chapter}{\CTEX@toc@width@n {4\hspace {.3em}}\hbox to\@tempdima {4\hspace {.3em}\hfil }系统详细设计}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}数据库设计}{13}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}数据库概念结构设计}{13}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}主要数据表设计}{14}{subsection.4.1.2}%
+\contentsline {chapter}{\CTEX@toc@width@n {3\hspace {.3em}}\hbox to\@tempdima {3\hspace {.3em}\hfil }系统总体设计}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}系统设计目标}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}系统总体架构设计}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}系统功能模块设计}{9}{section.3.3}%
+\contentsline {section}{\numberline {3.4}前后端结构设计}{9}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}前端结构设计}{9}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}后端结构设计}{11}{subsection.3.4.2}%
+\contentsline {chapter}{\CTEX@toc@width@n {4\hspace {.3em}}\hbox to\@tempdima {4\hspace {.3em}\hfil }系统详细设计}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}数据库设计}{12}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}数据库概念结构设计}{12}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}主要数据表设计}{13}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}智能辅学模块设计}{14}{section.4.2}%
 \contentsline {section}{\numberline {4.3}系统部署设计}{16}{section.4.3}%
 \contentsline {chapter}{\CTEX@toc@width@n {5\hspace {.3em}}\hbox to\@tempdima {5\hspace {.3em}\hfil }软件实现}{17}{chapter.5}%
@@ -46,28 +46,28 @@
 \contentsline {section}{\numberline {5.7}学习行为记录与事件追踪功能实现}{21}{section.5.7}%
 \contentsline {section}{\numberline {5.8}系统界面展示}{21}{section.5.8}%
 \contentsline {subsection}{\numberline {5.8.1}登录界面}{21}{subsection.5.8.1}%
-\contentsline {subsection}{\numberline {5.8.2}学生资源页仪表板}{22}{subsection.5.8.2}%
-\contentsline {subsection}{\numberline {5.8.3}教师资源页仪表板}{23}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.2}学生资源页仪表板}{21}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}教师资源页仪表板}{22}{subsection.5.8.3}%
 \contentsline {subsection}{\numberline {5.8.4}教师资源管理页面}{23}{subsection.5.8.4}%
-\contentsline {chapter}{\CTEX@toc@width@n {6\hspace {.3em}}\hbox to\@tempdima {6\hspace {.3em}\hfil }系统测试与调试}{25}{chapter.6}%
-\contentsline {section}{\numberline {6.1}测试环境}{25}{section.6.1}%
-\contentsline {section}{\numberline {6.2}功能测试}{25}{section.6.2}%
-\contentsline {section}{\numberline {6.3}前端构建与代码质量检查}{27}{section.6.3}%
-\contentsline {section}{\numberline {6.4}性能测试}{28}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}后端服务性能配置}{28}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}接口响应性能}{28}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}代码执行性能}{29}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}大模型调用性能}{29}{subsection.6.4.4}%
-\contentsline {section}{\numberline {6.5}安全测试}{29}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}认证安全测试}{29}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}代码执行安全测试}{29}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}数据访问安全测试}{30}{subsection.6.5.3}%
-\contentsline {section}{\numberline {6.6}测试结果分析}{30}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}功能完整性}{30}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}系统稳定性}{30}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}教学适用性}{30}{subsection.6.6.3}%
-\contentsline {subsection}{\numberline {6.6.4}待改进方向}{31}{subsection.6.6.4}%
-\contentsline {chapter}{\CTEX@toc@width@n {7\hspace {.3em}}\hbox to\@tempdima {7\hspace {.3em}\hfil }结论}{32}{chapter.7}%
-\contentsline {chapter}{参考文献}{33}{section*.15}%
-\contentsline {chapter}{致谢}{36}{chapter*.17}%
-\contentsline {chapter}{附录}{37}{chapter*.18}%
+\contentsline {chapter}{\CTEX@toc@width@n {6\hspace {.3em}}\hbox to\@tempdima {6\hspace {.3em}\hfil }系统测试与调试}{24}{chapter.6}%
+\contentsline {section}{\numberline {6.1}测试环境}{24}{section.6.1}%
+\contentsline {section}{\numberline {6.2}功能测试}{24}{section.6.2}%
+\contentsline {section}{\numberline {6.3}前端构建与代码质量检查}{26}{section.6.3}%
+\contentsline {section}{\numberline {6.4}性能测试}{27}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}后端服务性能配置}{27}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}接口响应性能}{27}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}代码执行性能}{27}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}大模型调用性能}{28}{subsection.6.4.4}%
+\contentsline {section}{\numberline {6.5}安全测试}{28}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}认证安全测试}{28}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}代码执行安全测试}{28}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}数据访问安全测试}{28}{subsection.6.5.3}%
+\contentsline {section}{\numberline {6.6}测试结果分析}{29}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}功能完整性}{29}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}系统稳定性}{29}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}教学适用性}{29}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}待改进方向}{29}{subsection.6.6.4}%
+\contentsline {chapter}{\CTEX@toc@width@n {7\hspace {.3em}}\hbox to\@tempdima {7\hspace {.3em}\hfil }结论}{31}{chapter.7}%
+\contentsline {chapter}{参考文献}{32}{section*.15}%
+\contentsline {chapter}{致谢}{35}{chapter*.17}%
+\contentsline {chapter}{附录}{36}{chapter*.18}%

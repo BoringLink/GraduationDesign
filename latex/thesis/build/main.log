@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.6)  1 MAY 2026 16:09
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.6)  1 MAY 2026 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1393,19 +1393,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* bindingoffset: 28.45274pt
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 426.79137pt, 56.9055pt)
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79137pt
+* \textwidth=455.24411pt
 * \textheight=702.78308pt
-* \oddsidemargin=41.54102pt
+* \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-15.41437pt
-* \headheight=12.0pt
-* \headsep=16.50264pt
+* \topmargin=-15.27602pt
+* \headheight=13.0pt
+* \headsep=15.36429pt
 * \topskip=12.0pt
 * \footskip=28.45274pt
 * \marginparwidth=47.0pt
@@ -1447,37 +1446,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] [1
-
-])
-(./chapters/abstract.tex
-
-Package fontspec Info: 
-(fontspec)             Script 'CJK' not explicitly supported within font
-(fontspec)             'Heiti SC'. Check the typeset output, and if it is okay
-(fontspec)             then ignore this warning. Otherwise a different font
-(fontspec)             should be chosen.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Heiti SC/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'HeitiSC(0)' created for font 'Heiti SC'
-(fontspec)             with options [Ligatures=TeX,Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Heiti
-(fontspec)             SC/OT:script=hani;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Heiti
-(fontspec)             SC/B/OT:script=hani;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Heiti
-(fontspec)             SC/BI/OT:script=hani;language=dflt;mapping=tex-text;"
-
+]
 
 Package fontspec Info: 
 (fontspec)             Script 'CJK' not explicitly supported within font
@@ -1503,19 +1472,53 @@ Package fontspec Info:
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
 
+ [1
+
+])
+(./chapters/abstract.tex
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'Heiti SC'. Check the typeset output, and if it is okay
+(fontspec)             then ignore this warning. Otherwise a different font
+(fontspec)             should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Heiti SC/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'HeitiSC(0)' created for font 'Heiti SC'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,Script={CJK},FakeBold={2.5}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Heiti
+(fontspec)             SC/OT:script=hani;language=dflt;embolden=2.5;mapping=tex
+-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Heiti
+(fontspec)             SC/B/OT:script=hani;language=dflt;embolden=2.5;mapping=t
+ex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Heiti
+(fontspec)             SC/BI/OT:script=hani;language=dflt;embolden=2.5;mapping=
+tex-text;"
+
  [2
 
 
 ]) [3
 
-] [4] (build/main.toc [5
+] (build/main.toc [4
 
 ])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [6]
-(./chapters/body.tex (./chapters/draft.tex
+ [5] (./chapters/body.tex (./chapters/draft.tex
 1
 [1
 
@@ -1525,23 +1528,23 @@ Package fontspec Info:
 2
 [3
 
-] [4] [5] [6] [7] [8] [9]
+] [4] [5] [6] [7] [8]
 3
 File: figures/body/系统总体架构图.pdf Graphic file (type pdf)
 <use figures/body/系统总体架构图.pdf>
 File: figures/body/系统功能模块图.pdf Graphic file (type pdf)
 <use figures/body/系统功能模块图.pdf>
-[10
+[9
 
-] [11] [12]
+] [10] [11]
 4
 File: figures/body/数据库概念结构图.pdf Graphic file (type pdf)
 <use figures/body/数据库概念结构图.pdf>
 File: figures/body/数据库逻辑结构图.pdf Graphic file (type pdf)
 <use figures/body/数据库逻辑结构图.pdf>
-[13
+[12
 
-]
+] [13]
 File: figures/body/智能辅学模块处理流程图.pdf Graphic file (type pdf)
 <use figures/body/智能辅学模块处理流程图.pdf>
  [14] [15] [16]
@@ -1557,12 +1560,12 @@ File: figures/body/login.png Graphic file (type bmp)
  [21]
 File: figures/body/student_dashboard.png Graphic file (type bmp)
 <figures/body/student_dashboard.png>
- [22]
 File: figures/body/teacher_dashboard.png Graphic file (type bmp)
 <figures/body/teacher_dashboard.png>
+ [22]
 File: figures/body/teacher_resource.png Graphic file (type bmp)
 <figures/body/teacher_resource.png>
- [23] [24]
+ [23]
 6
 
 Package fontspec Info: 
@@ -1595,33 +1598,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 488--488
  []
 
 
-Overfull \hbox (51.27444pt too wide) in paragraph at lines 480--498
+Overfull \hbox (22.8217pt too wide) in paragraph at lines 480--498
  [][] 
  []
 
-[25
+[24
 
-] [26]
-Overfull \hbox (37.33943pt too wide) in paragraph at lines 504--505
+] [25]
+Overfull \hbox (8.88669pt too wide) in paragraph at lines 504--505
 []\TU/SongtiSC(0)/m/n/12.045 从 测 试 脚 本 对 应 关 系 看，|  认 证 类 用 例 主 要 落 在 \TU/Menlo
 (0)/m/n/12.045 test_auth_and_permissions.py
  []
 
-
-Overfull \hbox (3.71101pt too wide) in paragraph at lines 504--505
-\TU/SongtiSC(0)/m/n/12.045 循 环 限 制；|  消 息 与 资 源 权 限 相 关 验 证 则 由 \TU/Menlo(0)/m/
-n/12.045 test_comments_and_resources.py
- []
-
-[27] [28] [29] [30] [31]
+[26] [27] [28] [29] [30]
 7
-)) [32
+)) [31
 
-] (./chapters/backmatter.tex (build/main.bbl [33
+] (./chapters/backmatter.tex (build/main.bbl [32
 
 
 
-] [34]) [35] [36
+] [33]) [34] [35
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
@@ -1632,20 +1629,27 @@ U/SongtiSC(0)/m/n/12.045 、|
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\TU/Menlo(0)/m/n/12.045 /platform/records\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menl
+o(0)/m/n/12.045 /platform/tasks\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/1
+2.045 /platform/knowledges\TU/SongtiSC(0)/m/n/12.045 、|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 \TU/Menlo(0)/m/n/12.045 /platform/recommendations\TU/SongtiSC(0)/m/n/12.045 、| 
 \TU/Menlo(0)/m/n/12.045 /platform/suggestions\TU/SongtiSC(0)/m/n/12.045 、|
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
-\TU/Menlo(0)/m/n/12.045 Recommendations\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(
-0)/m/n/12.045 Records\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 Sugg
-estions\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 Classes\TU/SongtiS
-C(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 Resources\TU/SongtiSC(0)/m/n/12.045 
-、|
+[]\TU/SongtiSC(0)/m/n/12.045 数 据 库 模 型 包 括 \TU/Menlo(0)/m/n/12.045 Users\TU/Son
+gtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 Tasks\TU/SongtiSC(0)/m/n/12.045 
+、| \TU/Menlo(0)/m/n/12.045 Contents\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m
+/n/12.045 Courses\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 Knowledg
+es\TU/SongtiSC(0)/m/n/12.045 、|
  []
 
-[37
+[36
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
@@ -1654,10 +1658,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 39--40
+Underfull \hbox (badness 3557) in paragraph at lines 39--40
 \TU/Menlo(0)/m/n/12.045 backend/tools/perf_sample.py\TU/SongtiSC(0)/m/n/12.045 
 。|  该 脚 本 在 本 地 以 \TU/TimesNewRoman(1)/m/n/12.045 SQLite \TU/SongtiSC(0)/m/n/12
-.045 和 \TU/TimesNewRoman(1)/m/n/12.045 FakeRe-
+.045 和 \TU/TimesNewRoman(1)/m/n/12.045 FakeRedis \TU/SongtiSC(0)/m/n/12.045 复
  []
 
 
@@ -1667,35 +1671,41 @@ ealth\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 GET /users/check\TU
 SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 POST
  []
 
-[38]
+
+Underfull \hbox (badness 3375) in paragraph at lines 41--42
+\TU/Menlo(0)/m/n/12.045 /platform/run (print)\TU/SongtiSC(0)/m/n/12.045 。|  输 出
+ 指 标 包 括 样 本 次 数、|  成 功 次 数、|  平 均 响 应 时
+ []
+
+[37]
 File: ../../CodingPlatformBak/output/playwright/recapture/login_local_new.png G
 raphic file (type bmp)
 <../../CodingPlatformBak/output/playwright/recapture/login_local_new.png>
 File: ../../CodingPlatformBak/output/playwright/recapture/login_filled_new.png 
 Graphic file (type bmp)
 <../../CodingPlatformBak/output/playwright/recapture/login_filled_new.png>
- [39]
+ [38]
 File: ../../CodingPlatformBak/output/playwright/recapture/stu_new.png Graphic f
 ile (type bmp)
 <../../CodingPlatformBak/output/playwright/recapture/stu_new.png>
 File: figures/backmatter/ui_event_records-cropped.pdf Graphic file (type pdf)
 <use figures/backmatter/ui_event_records-cropped.pdf>
- [40]
+ [39]
 File: figures/backmatter/ui_login-cropped.pdf Graphic file (type pdf)
 <use figures/backmatter/ui_login-cropped.pdf>
- [41]) [42] [43] (build/main.aux)
+ [40]) [41] [42] (build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 31991 strings out of 468168
- 700625 string characters out of 5432816
- 1104642 words of memory out of 5000000
- 60066 multiletter control sequences out of 15000+600000
- 635072 words of font info for 149 fonts, out of 8000000 for 9000
+ 32032 strings out of 468168
+ 703216 string characters out of 5432816
+ 1105837 words of memory out of 5000000
+ 60104 multiletter control sequences out of 15000+600000
+ 635080 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,12n,118p,1195b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,12n,118p,1195b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main.xdv (50 pages, 627764 bytes).
+Output written on build/main.xdv (48 pages, 623660 bytes).

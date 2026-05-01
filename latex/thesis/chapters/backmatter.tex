@@ -15,7 +15,7 @@
 
 \section*{附录 A 项目技术栈与系统结构}\label{ux9644ux5f55-a-ux9879ux76eeux6280ux672fux6808ux4e0eux7cfbux7edfux7ed3ux6784}
 
-本课题实现了一个基于 Nuxt 3 + FastAPI 的编程教育平台，覆盖课程管理、学生/教师角色区分、聊天交互与事件追踪。技术选型相对集中：前端采用 Nuxt 3（Vue 3）、Pinia、TypeScript、Tailwind CSS + DaisyUI，并结合 Axios、ECharts、CodeMirror 与 Tiptap 完成交互展示；后端使用 FastAPI、Uvicorn、SQLAlchemy、pymssql、Redis、JWT 和 passlib[bcrypt] 构建接口与数据访问层；在部署与运维方面，由 Docker、PM2、ESLint、Pytest 以及性能监控模块共同支撑交付与验证，整体方案结构较为清晰。
+本课题实现了一个基于 Nuxt 3 + FastAPI 的编程教育平台，覆盖课程管理、学生/教师角色区分、聊天交互与事件追踪。技术栈选型上：前端走 Nuxt 3（Vue 3）、Pinia、TypeScript、Tailwind CSS + DaisyUI，配上 Axios、ECharts、CodeMirror 和 Tiptap 搞定交互展示；后端由 FastAPI、Uvicorn、SQLAlchemy、pymssql、Redis、JWT 和 passlib[bcrypt] 撑起接口与数据层；部署运维这边，Docker、PM2、ESLint、Pytest 外加性能监控模块一起扛交付和验证，整套方案结构还算清爽。
 
 从目录组织看，frontend/ 主要承载页面、组件、状态管理和静态资源，backend/ 集中放置 API 路由、数据库模型、公共模块与工具模块；输出目录 output/playwright/ 用于保存测试截图和日志。这种组织方式便于后续功能实现、联调验证和实验材料整理，也能在需要时快速定位模块。
 
@@ -32,7 +32,7 @@
 
 数据库模型包括 \texttt{Users}、\texttt{Tasks}、\texttt{Contents}、\texttt{Courses}、\texttt{Knowledges}、\texttt{Recommendations}、\texttt{Records}、\texttt{Suggestions}、\texttt{Classes}、\texttt{Resources}、\texttt{Comments}、\texttt{CommentReadStatus} 和 \texttt{Likes}。这些表结构分别对应用户、课程、学习行为记录、反馈与互动等核心业务，为平台保持数据一致性提供了基础。
 
-从接口与数据层设计角度看，近期研究对“可解释流程”与“教师在环”提出了较一致要求：在编程教育任务中，LLM 更适合承担提示、纠错建议与阶段反馈，而评分裁决、学习诊断和教学意图解释应由教师或课程规则完成闭环\cite{raihan2025cseduslr,ma2024teachableagent,jeon2023complementary}。例如，面向 K-12 的实验研究与课堂报告表明，提示工程、任务分解和中间产物检查能够提升交互有效性，但仍需配套行为记录与结果审计以降低误导风险\cite{tang2025middleschool,gonzalez2025k12gpt}。因此，附录所列 \texttt{Records}、\texttt{Suggestions}、\texttt{Comments} 等模型不仅服务于业务实现，也为“过程证据保存 + 教学干预回溯”提供了数据基础，这与风险治理研究中的可追踪、可问责原则相吻合\cite{pirzado2024pitfalls,humble2024risk,tlili2023devilangel}。
+接口与数据层设计这块，近期研究对“可解释流程”和“教师在环”的呼声趋同：编程教育里，LLM 更适合干提示、纠错建议和阶段反馈，评分裁决、学情诊断、教学意图解释得交回教师或课程规则闭环\cite{raihan2025cseduslr,ma2024teachableagent,jeon2023complementary}。K-12 的实验和课堂报告也印证了，提示工程、任务拆解和中间产物检查能拉高交互有效性，但需要配套行为记录与结果审计来压误导风险\cite{tang2025middleschool,gonzalez2025k12gpt}。正因如此，附录里的 \texttt{Records}、\texttt{Suggestions}、\texttt{Comments} 几个模型不只是跑业务，更是在为“过程留痕 + 教学回溯”铺数据底座，跟风险治理里可追踪、可追责的原则一拍即合\cite{pirzado2024pitfalls,humble2024risk,tlili2023devilangel}。
 
 \section*{附录 C 性能采样脚本}\label{ux9644ux5f55-c-ux6027ux80fdux91c7ux6837ux811aux672c}
 

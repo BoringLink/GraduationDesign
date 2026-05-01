@@ -27,7 +27,7 @@
 \RequirePackage{etoolbox}
 \usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,calc,matrix,shadows}
 
-\geometry{a4paper,left=3cm,right=2cm,top=3cm,bottom=2cm,bindingoffset=1cm,headheight=12pt,headsep=0.58cm,footskip=1cm}
+\geometry{a4paper,left=3cm,right=2cm,top=3cm,bottom=2cm,headheight=13pt,headsep=0.54cm,footskip=1cm}
 \setlength{\baselineskip}{20pt}
 \setlength{\parindent}{2em}
 \setlength{\parskip}{0pt}
@@ -63,24 +63,25 @@
 \newcommand{\kai}{\CJKfamily{kai}}
 \newcommand{\song}{\CJKfamily{song}}
 \newcommand{\hei}{\CJKfamily{hei}}
+\newcommand{\HduLevelOneTitleFormat}{\centering\setstretch{1}\CJKfontspec[FakeBold=2.5]{Heiti SC}\zihao{3}}
 
 \ctexset{
   chapter={
-    format={\centering\hei\zihao{3}},
+    format={\HduLevelOneTitleFormat},
     name={,},
     number={\arabic{chapter}},
     tocline={\numberline{\thechapter\hspace{.3em}}#2},
-    beforeskip={18pt},
-    afterskip={18pt}
+    beforeskip={32pt},
+    afterskip={32pt}
   },
   section={
-    format=\hei\zihao{-3},
+    format={\CJKfontspec[FakeBold=2.5]{Heiti SC}\zihao{-3}},
     number={\thechapter.\arabic{section}},
     beforeskip=12pt,
     afterskip=8pt
   },
   subsection={
-    format=\hei\zihao{4},
+    format={\CJKfontspec[FakeBold=2.5]{Heiti SC}\zihao{-4}\setlength{\baselineskip}{20pt}},
     number={\thechapter.\arabic{section}.\arabic{subsection}},
     beforeskip=8pt,
     afterskip=6pt
@@ -90,15 +91,22 @@
 % 正文页眉页脚：页眉宋体五号居中，页脚Times New Roman五号“-n-”格式
 \fancypagestyle{mainmatterstyle}{%
   \fancyhf{}%
-  \fancyhead[C]{\zihao{-5}\song 杭州电子科技大学继续教育学院本科毕业设计（论文）}%
+  \fancyhead[C]{\zihao{5}\song 杭州电子科技大学继续教育学院本科毕业设计（论文）}%
   \fancyfoot[C]{\zihao{-5}\fontspec{Times New Roman}-\arabic{page}-}%
   \renewcommand{\headrulewidth}{0.4pt}%
 }
-% 前言页眉页脚：页脚罗马数字居中，无页眉
+% 前置页页眉同正文，页脚使用罗马数字。
 \fancypagestyle{frontmatterstyle}{%
   \fancyhf{}%
+  \fancyhead[C]{\zihao{5}\song 杭州电子科技大学继续教育学院本科毕业设计（论文）}%
   \fancyfoot[C]{\zihao{-5}\fontspec{Times New Roman}\Roman{page}}%
-  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[C]{\zihao{5}\song 杭州电子科技大学继续教育学院本科毕业设计（论文）}%
+  \fancyfoot[C]{\zihao{-5}\fontspec{Times New Roman}-\arabic{page}-}%
+  \renewcommand{\headrulewidth}{0.4pt}%
 }
 \pagestyle{mainmatterstyle}
 
@@ -114,7 +122,7 @@
 \renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
 \renewcommand{\thetable}{\arabic{chapter}-\arabic{table}}
 \renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
-\renewcommand{\contentsname}{\hfill\hei\zihao{3}目\quad 录\hfill}
+\renewcommand{\contentsname}{\HduLevelOneTitleFormat 目\quad 录}
 \AtBeginDocument{\setcounter{tocdepth}{1}}
 \Urlmuskip=0mu plus 2mu
 
