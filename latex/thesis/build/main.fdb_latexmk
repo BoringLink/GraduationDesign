@@ -1,21 +1,21 @@
 # Fdb version 4
-["bibtex build/main"] 1777632375.75096 "build/main.aux" "build/main.bbl" "build/main" 1777632380.01032 0
+["bibtex build/main"] 1778063105.73258 "build/main.aux" "build/main.bbl" "build/main" 1778063109.64525 0
   "./references.bib" 1777622625.50683 8468 f750ccb087f6369135eb46ade88f41f2 ""
   "/usr/local/texlive/2026/texmf-dist/bibtex/bst/gbt7714/gbt7714-numerical.bst" 1768771221 58899 d0fae0cf8d28654026c4bf03972fb16c ""
-  "build/main.aux" 1777632377.5885 18865 49c3835d9b509512bf9e76f78aab59a9 "xelatex"
+  "build/main.aux" 1778063107.38968 19129 c359ffa281c14971e3b3a12a46494729 "xelatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1777632377.93652 "build/main.xdv" "build/main.pdf" "build/main" 1777632380.0122 0
-  "build/main.xdv" 1777632377.59089 623660 0963f099fd969a0e08df55ed15b998e2 "xelatex"
+["xdvipdfmx"] 1778063107.70396 "build/main.xdv" "build/main.pdf" "build/main" 1778063109.64718 0
+  "build/main.xdv" 1778063107.39195 628536 9206616951b8c6643f52b7b25ba1230e "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1777632376.01584 "main.tex" "build/main.xdv" "main" 1777632380.01041 0
-  "../../CodingPlatformBak/output/playwright/recapture/login_filled_new.png" 1776254825.68673 46022 46605fd7d58ac837e7e7bf8761892c1f ""
-  "../../CodingPlatformBak/output/playwright/recapture/login_local_new.png" 1776254667.19443 33509 177a8d2b9c032c7b326ddb86e87aa70c ""
-  "../../CodingPlatformBak/output/playwright/recapture/stu_new.png" 1776254667.24851 33509 177a8d2b9c032c7b326ddb86e87aa70c ""
+["xelatex"] 1778063105.98559 "main.tex" "build/main.xdv" "main" 1778063109.64533 0
+  "../../CodingPlatformBak/output/playwright/recapture/login_filled_new.png" 1777880198.49735 46022 46605fd7d58ac837e7e7bf8761892c1f ""
+  "../../CodingPlatformBak/output/playwright/recapture/login_local_new.png" 1777880198.49788 33509 177a8d2b9c032c7b326ddb86e87aa70c ""
+  "../../CodingPlatformBak/output/playwright/recapture/stu_new.png" 1777880198.49894 33509 177a8d2b9c032c7b326ddb86e87aa70c ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -203,28 +203,29 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/xetex/xelatex.fmt" 1775409896 5948569 3f0a3c9289d15f02aa66c588e507ee9a ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "build/main.aux" 1777632377.5885 18865 49c3835d9b509512bf9e76f78aab59a9 "xelatex"
-  "build/main.bbl" 1777632376.00873 8897 80136da2e86c95c9d8412d36afb98f0d "bibtex build/main"
-  "build/main.toc" 1777632377.59065 6577 ffd5bbf025c4ac8090830dd1ed112f43 "xelatex"
-  "chapters/abstract.tex" 1777631210.22605 4612 7e60930ab4569b92af784ddfde379b0c ""
-  "chapters/backmatter.tex" 1777631024.29071 9035 89db94439444322f81f4027fb8ba159d ""
+  "build/main.aux" 1778063107.38968 19129 c359ffa281c14971e3b3a12a46494729 "xelatex"
+  "build/main.bbl" 1778063105.97857 8897 80136da2e86c95c9d8412d36afb98f0d "bibtex build/main"
+  "build/main.toc" 1778063107.3917 6577 134599ce00d863f62d9612eb095ed215 "xelatex"
+  "chapters/abstract.tex" 1777987624.14472 4555 e09bac2748e26d64dd30d57c0841125e ""
+  "chapters/backmatter.tex" 1777987497.96425 8999 eba7918af34d617637e9ac3e44d40c6f ""
   "chapters/body.tex" 1777622625.48901 53 682ed14af9ac44c37404259254d4e95f ""
-  "chapters/draft.tex" 1777632354.39025 64917 0ab9fabc113b92b3e488464caa9048c3 ""
+  "chapters/draft.tex" 1778063022.70181 65490 03864bcf85c1aab17c3f821a3e37985e ""
   "figures/backmatter/ui_event_records-cropped.pdf" 1777622625.4895 38986 adbd9ae143c09fc6ed5cd635f20dae62 ""
   "figures/backmatter/ui_login-cropped.pdf" 1777622625.49023 12652 2d028819420f4271b5725393c3f240b6 ""
   "figures/body/login.png" 1777622625.49393 126874 30e365fe210f77f454ee6fd5a202f697 ""
   "figures/body/student_dashboard.png" 1777622625.49526 311412 f98bb4c8a513bff09f3d0b7798188088 ""
   "figures/body/teacher_dashboard.png" 1777622625.49653 381732 746cb0062f77aaf52e163334a8c311a7 ""
   "figures/body/teacher_resource.png" 1777622625.49706 172986 b0292d905022eada624499915f0a933b ""
-  "figures/body/在线编程与代码运行流程图.pdf" 1777622625.49889 66783 086c21db64565999aab58c4d64dde120 ""
   "figures/body/数据库概念结构图.pdf" 1777622625.50015 68932 1e1615a2f7aeb028ad9d0570d02a4d0e ""
   "figures/body/数据库逻辑结构图.pdf" 1777622625.5013 249576 95898a354072b3633e002d580ec9c81c ""
   "figures/body/智能辅学模块处理流程图.pdf" 1777622625.50152 47959 503e6bf965cea2a9a6b0eafa0470cd42 ""
+  "figures/body/浏览器端代码执行架构图.pdf" 1777905040.57923 168471 17bcc6372da6759118449790e1ea2487 ""
+  "figures/body/浏览器端代码执行流程图.pdf" 1777905040.49622 136541 c482bd48797f64275065226459640bb1 ""
   "figures/body/系统功能模块图.pdf" 1777622625.50254 142448 9bad55eb93a0d7efe6eb03b61619c7d5 ""
   "figures/body/系统总体架构图.pdf" 1777622625.50408 129474 e2f6da5d79c9e7b63171c861d84e9415 ""
   "main.tex" 1777622625.50546 462 e5111dc061b0a908f079c4527b632665 ""
   "metadata.tex" 1777622625.50627 620 3954a33a9692ee859bb92187a238138e ""
-  "styles/cover.tex" 1777625229.62502 1108 5eb1d67409a5d214e1425cc04ac1620d ""
+  "styles/cover.tex" 1777885843.56593 1313 27ae2cadc0a79419cb50112c2d3778ed ""
   "styles/hdu-thesis.sty" 1777628813.56037 7066 b4f578610449995baa52e4778334b57d ""
   (generated)
   "build/main.aux"

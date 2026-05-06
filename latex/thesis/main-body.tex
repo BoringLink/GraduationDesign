@@ -7,7 +7,6 @@
 
 \frontmatter
 \pagenumbering{Roman}
-\thispagestyle{empty}
 % 封面已跳过，正文从摘要开始
 \pagestyle{frontmatterstyle}
 \input{chapters/abstract}
@@ -20,7 +19,12 @@
 \setcounter{page}{1}
 \input{chapters/body}
 
-\backmatter
-{\sloppy\input{chapters/backmatter}}
+% 仅引用参考文献以解析 citation，不含附录
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{参考文献}
+\nocite{*}
+\bibliographystyle{gbt7714-numerical}
+\bibliography{references}
 
 \end{document}

@@ -37,37 +37,37 @@
 \contentsline {section}{\numberline {5.4}大模型辅助教学功能实现}{19}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}自由问答功能实现}{19}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}代码解释功能实现}{19}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}报错解析功能实现}{19}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}问题分解功能实现}{19}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}抽象建模功能实现}{20}{subsection.5.4.5}%
-\contentsline {subsection}{\numberline {5.4.6}算法设计引导功能实现}{20}{subsection.5.4.6}%
-\contentsline {section}{\numberline {5.5}师生互动与消息功能实现}{20}{section.5.5}%
-\contentsline {section}{\numberline {5.6}教学资源管理功能实现}{20}{section.5.6}%
-\contentsline {section}{\numberline {5.7}学习行为记录与事件追踪功能实现}{21}{section.5.7}%
-\contentsline {section}{\numberline {5.8}系统界面展示}{21}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}登录界面}{21}{subsection.5.8.1}%
-\contentsline {subsection}{\numberline {5.8.2}学生资源页仪表板}{21}{subsection.5.8.2}%
-\contentsline {subsection}{\numberline {5.8.3}教师资源页仪表板}{22}{subsection.5.8.3}%
-\contentsline {subsection}{\numberline {5.8.4}教师资源管理页面}{23}{subsection.5.8.4}%
-\contentsline {chapter}{\CTEX@toc@width@n {6\hspace {.3em}}\hbox to\@tempdima {6\hspace {.3em}\hfil }系统测试与调试}{24}{chapter.6}%
-\contentsline {section}{\numberline {6.1}测试环境}{24}{section.6.1}%
-\contentsline {section}{\numberline {6.2}功能测试}{24}{section.6.2}%
-\contentsline {section}{\numberline {6.3}前端构建与代码质量检查}{26}{section.6.3}%
-\contentsline {section}{\numberline {6.4}性能测试}{27}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}后端服务性能配置}{27}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}接口响应性能}{27}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}代码执行性能}{27}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}大模型调用性能}{28}{subsection.6.4.4}%
-\contentsline {section}{\numberline {6.5}安全测试}{28}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}认证安全测试}{28}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}代码执行安全测试}{28}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}数据访问安全测试}{28}{subsection.6.5.3}%
-\contentsline {section}{\numberline {6.6}测试结果分析}{29}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}功能完整性}{29}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}系统稳定性}{29}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}教学适用性}{29}{subsection.6.6.3}%
-\contentsline {subsection}{\numberline {6.6.4}待改进方向}{29}{subsection.6.6.4}%
-\contentsline {chapter}{\CTEX@toc@width@n {7\hspace {.3em}}\hbox to\@tempdima {7\hspace {.3em}\hfil }结论}{31}{chapter.7}%
-\contentsline {chapter}{参考文献}{32}{section*.15}%
-\contentsline {chapter}{致谢}{35}{chapter*.17}%
-\contentsline {chapter}{附录}{36}{chapter*.18}%
+\contentsline {subsection}{\numberline {5.4.3}报错解析功能实现}{21}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}问题分解功能实现}{21}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}抽象建模功能实现}{21}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}算法设计引导功能实现}{21}{subsection.5.4.6}%
+\contentsline {section}{\numberline {5.5}师生互动与消息功能实现}{21}{section.5.5}%
+\contentsline {section}{\numberline {5.6}教学资源管理功能实现}{22}{section.5.6}%
+\contentsline {section}{\numberline {5.7}学习行为记录与事件追踪功能实现}{22}{section.5.7}%
+\contentsline {section}{\numberline {5.8}系统界面展示}{22}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}登录界面}{23}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}学生资源页仪表板}{23}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}教师资源页仪表板}{23}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}教师资源管理页面}{24}{subsection.5.8.4}%
+\contentsline {chapter}{\CTEX@toc@width@n {6\hspace {.3em}}\hbox to\@tempdima {6\hspace {.3em}\hfil }系统测试与调试}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}测试环境}{26}{section.6.1}%
+\contentsline {section}{\numberline {6.2}功能测试}{26}{section.6.2}%
+\contentsline {section}{\numberline {6.3}前端构建与代码质量检查}{28}{section.6.3}%
+\contentsline {section}{\numberline {6.4}性能测试}{29}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}后端服务性能配置}{29}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}接口响应性能}{29}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}代码执行性能}{29}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}大模型调用性能}{30}{subsection.6.4.4}%
+\contentsline {section}{\numberline {6.5}安全测试}{30}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}认证安全测试}{30}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}代码执行安全测试}{30}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}数据访问安全测试}{30}{subsection.6.5.3}%
+\contentsline {section}{\numberline {6.6}测试结果分析}{31}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}功能完整性}{31}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}系统稳定性}{31}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}教学适用性}{31}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}待改进方向}{31}{subsection.6.6.4}%
+\contentsline {chapter}{\CTEX@toc@width@n {7\hspace {.3em}}\hbox to\@tempdima {7\hspace {.3em}\hfil }结论}{33}{chapter.7}%
+\contentsline {chapter}{参考文献}{34}{section*.16}%
+\contentsline {chapter}{致谢}{37}{chapter*.18}%
+\contentsline {chapter}{附录}{38}{chapter*.19}%

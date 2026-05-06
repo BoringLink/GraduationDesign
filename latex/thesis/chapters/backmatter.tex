@@ -19,7 +19,7 @@
 
 从目录组织看，frontend/ 主要承载页面、组件、状态管理和静态资源，backend/ 集中放置 API 路由、数据库模型、公共模块与工具模块；输出目录 output/playwright/ 用于保存测试截图和日志。这种组织方式便于后续功能实现、联调验证和实验材料整理，也能在需要时快速定位模块。
 
-结合近两年的综述与实证研究可以看出，LLM 在编程教育中的价值通常体现为“过程性支持”而非“替代性教学”：一方面，教育场景中的系统综述普遍将其定位为反馈增强、学习支架与课程辅助工具，强调与教师决策协同使用\cite{wang2024llmedu,raihan2025cseduslr,pitts2025llmprogedu}；另一方面，针对编程学习助手的系统性证据也反复提示，模型输出可能出现不稳定或不完全可靠的情况，因此课程设计需要同步配置验证、追问与人工复核机制\cite{pirzado2024pitfalls,jeon2023complementary}。在 K-12 语境下，相关范围综述同样指出，工具选择应与学习者年龄、任务粒度和课堂组织方式相匹配，避免“技术先行、目标滞后”的实施路径\cite{yim2024k12scoping}。上述结论与本项目采用的“前后端分层 + 测试留痕 + 过程可追溯”结构基本一致，可为后续课堂化部署提供方法学依据。
+结合近两年的综述与实证研究可以看出，LLM 在编程教育中的价值通常体现为“过程性支持”而非“替代性教学”：教育场景中的综述普遍将其定位为反馈增强、学习支架与课程辅助工具，强调与教师决策协同使用\cite{wang2024llmedu,raihan2025cseduslr,pitts2025llmprogedu}；但针对编程学习助手的整体性证据也反复提示，模型输出可能出现不稳定或不完全可靠的情况，因此课程设计需要同步配置验证、追问与人工复核机制\cite{pirzado2024pitfalls,jeon2023complementary}。在 K-12 语境下，相关范围综述同样指出，工具选择应与学习者年龄、任务粒度和课堂组织方式相匹配，避免“技术先行、目标滞后”的实施路径\cite{yim2024k12scoping}。上述结论与本项目采用的“前后端分层 + 测试留痕 + 过程可追溯”结构基本一致，可为后续课堂化部署提供方法学依据。
 
 \section*{附录 B 后端接口与数据库模型摘要}\label{ux9644ux5f55-b-ux540eux7aefux63a5ux53e3ux4e0eux6570ux636eux5e93ux6a21ux578bux6458ux8981}
 
@@ -32,7 +32,7 @@
 
 数据库模型包括 \texttt{Users}、\texttt{Tasks}、\texttt{Contents}、\texttt{Courses}、\texttt{Knowledges}、\texttt{Recommendations}、\texttt{Records}、\texttt{Suggestions}、\texttt{Classes}、\texttt{Resources}、\texttt{Comments}、\texttt{CommentReadStatus} 和 \texttt{Likes}。这些表结构分别对应用户、课程、学习行为记录、反馈与互动等核心业务，为平台保持数据一致性提供了基础。
 
-接口与数据层设计这块，近期研究对“可解释流程”和“教师在环”的呼声趋同：编程教育里，LLM 更适合干提示、纠错建议和阶段反馈，评分裁决、学情诊断、教学意图解释得交回教师或课程规则闭环\cite{raihan2025cseduslr,ma2024teachableagent,jeon2023complementary}。K-12 的实验和课堂报告也印证了，提示工程、任务拆解和中间产物检查能拉高交互有效性，但需要配套行为记录与结果审计来压误导风险\cite{tang2025middleschool,gonzalez2025k12gpt}。正因如此，附录里的 \texttt{Records}、\texttt{Suggestions}、\texttt{Comments} 几个模型不只是跑业务，更是在为“过程留痕 + 教学回溯”铺数据底座，跟风险治理里可追踪、可追责的原则一拍即合\cite{pirzado2024pitfalls,humble2024risk,tlili2023devilangel}。
+接口与数据层设计这块，近期研究对“可解释流程”和“教师在环”的呼声趋同：编程教育里，LLM 更适合干提示、纠错建议和阶段反馈，评分裁决、学情诊断、教学意图解释得交回教师或课程规则约束\cite{raihan2025cseduslr,ma2024teachableagent,jeon2023complementary}。K-12 的实验和课堂报告也印证了，提示工程、任务拆解和中间产物检查能拉高交互有效性，但需要配套行为记录与结果审计来压误导风险\cite{tang2025middleschool,gonzalez2025k12gpt}。因此，附录里的 \texttt{Records}、\texttt{Suggestions}、\texttt{Comments} 几个模型不只是跑业务，更是在为“过程留痕 + 教学回溯”铺数据底座，跟风险治理里可追踪、可追责的原则一拍即合\cite{pirzado2024pitfalls,humble2024risk,tlili2023devilangel}。
 
 \section*{附录 C 性能采样脚本}\label{ux9644ux5f55-c-ux6027ux80fdux91c7ux6837ux811aux672c}
 
@@ -40,7 +40,7 @@
 
 脚本采样的接口包括：\texttt{GET /health}、\texttt{GET /users/check}、\texttt{POST /platform/run (print)}。输出指标包括样本次数、成功次数、平均响应时间、P95 响应时间和最大响应时间。
 
-相关文献也支持将性能指标与学习支持质量放在一起考察。LLM 介入编程教学后，响应时延与交互稳定性会直接影响学生持续提问和迭代调试的意愿，低抖动、可复现实验链路是必要前提\cite{pitts2025llmprogedu,ma2024teachableagent}。此外，系统综述普遍建议将模型正确性、反馈可操作性与失败案例占比纳入过程评估，而不只看单次成功率\cite{raihan2025cseduslr,pirzado2024pitfalls}。学校场景研究也显示，经任务约束与提示优化后，模型在特定编程活动中的辅助效果更稳定，但结果可靠性的核验步骤不能省\cite{tang2025middleschool,gonzalez2025k12gpt}。基于这一结论，本课题在性能采样之外保留 JSON 明细，便于后续按实验批次复盘接口耗时、反馈质量和学习行为之间的关联。
+相关文献也支持将性能指标与学习支持质量放在一起考察。LLM 介入编程教学后，响应时延与交互稳定性会直接影响学生持续提问和迭代调试的意愿，低抖动、可复现实验流程是必要前提\cite{pitts2025llmprogedu,ma2024teachableagent}。此外，系统综述普遍建议将模型正确性、反馈可操作性与失败案例占比纳入过程评估，而不只看单次成功率\cite{raihan2025cseduslr,pirzado2024pitfalls}。学校场景研究也显示，经任务约束与提示优化后，模型在特定编程活动中的辅助效果更稳定，但结果可靠性的核验步骤不能省\cite{tang2025middleschool,gonzalez2025k12gpt}。基于这一结论，本课题在性能采样之外保留 JSON 明细，便于后续按实验批次回溯接口耗时、反馈质量和学习行为之间的关联。
 
 其核心流程可概括为：
 
@@ -92,6 +92,6 @@
   \caption{云端环境登录页面测试截图}
 \end{figure}
 
-从以上材料可以看出，系统界面、认证流程、事件追踪页面和自动化测试流程均已完成，验证链路已基本闭环。
+从以上材料可以看出，系统界面、认证流程、事件追踪页面和自动化测试流程均已完成，验证流程已基本贯通。
 
 对照教育领域关于生成式 AI 的已有研究，测试截图与日志除用作可用性证明外，还应承担教学风险提示功能。文献普遍认可其在学习支持和资源获取上的效率优势，但也持续报告了幻觉、过度依赖、学术诚信和隐私边界等问题，需要通过日志抽样、异常对话复核和规则提示加以约束\cite{humble2024risk,tlili2023devilangel,jeon2023complementary}。对于 K-12 与初学者场景，范围综述与系统综述均建议在平台端保留可审计证据，并将人机协同规范显式纳入课程说明与评测标准\cite{wang2024llmedu,raihan2025cseduslr,yim2024k12scoping}。因此，\texttt{output/playwright/} 下的截图和控制台记录既是工程验收材料，也可作为论文中技术验证与教学治理的协同证据。

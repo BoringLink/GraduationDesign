@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.6)  1 MAY 2026 18:46
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.6)  6 MAY 2026 18:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1552,73 +1552,61 @@ File: figures/body/智能辅学模块处理流程图.pdf Graphic file (type pdf)
 [17
 
 ]
-File: figures/body/在线编程与代码运行流程图.pdf Graphic file (type pdf)
-<use figures/body/在线编程与代码运行流程图.pdf>
- [18] [19] [20]
+File: figures/body/浏览器端代码执行架构图.pdf Graphic file (type pdf)
+<use figures/body/浏览器端代码执行架构图.pdf>
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'Songti SC'. Check the typeset output, and if it is
+(fontspec)             okay then ignore this warning. Otherwise a different
+(fontspec)             font should be chosen.
+
+File: figures/body/浏览器端代码执行流程图.pdf Graphic file (type pdf)
+<use figures/body/浏览器端代码执行流程图.pdf>
+ [18] [19] [20] [21] [22]
 File: figures/body/login.png Graphic file (type bmp)
 <figures/body/login.png>
- [21]
 File: figures/body/student_dashboard.png Graphic file (type bmp)
 <figures/body/student_dashboard.png>
 File: figures/body/teacher_dashboard.png Graphic file (type bmp)
 <figures/body/teacher_dashboard.png>
- [22]
+ [23] [24]
 File: figures/body/teacher_resource.png Graphic file (type bmp)
 <figures/body/teacher_resource.png>
- [23]
+ [25]
 6
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "PingFang SC/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'PingFangSC(0)' created for font 'PingFang
-(fontspec)             SC' with options [Ligatures=TeX,Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"PingFang
-(fontspec)             SC/OT:script=hani;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"PingFang
-(fontspec)             SC/B/OT:script=hani;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"PingFang
-(fontspec)             SC/BI/OT:script=hani;language=dflt;mapping=tex-text;"
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 []|\TU/SongtiSC(0)/m/n/12.045 提 交 正 确 代 码
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []|\TU/SongtiSC(0)/m/n/12.045 提 交 危 险 代 码
  []
 
 
-Overfull \hbox (22.8217pt too wide) in paragraph at lines 480--498
+Overfull \hbox (22.8217pt too wide) in paragraph at lines 487--505
  [][] 
  []
 
-[24
+[26
 
-] [25]
-Overfull \hbox (8.88669pt too wide) in paragraph at lines 504--505
+] [27]
+Overfull \hbox (8.88669pt too wide) in paragraph at lines 511--512
 []\TU/SongtiSC(0)/m/n/12.045 从 测 试 脚 本 对 应 关 系 看，|  认 证 类 用 例 主 要 落 在 \TU/Menlo
 (0)/m/n/12.045 test_auth_and_permissions.py
  []
 
-[26] [27] [28] [29] [30]
+[28] [29] [30] [31] [32]
 7
-)) [31
+)) [33
 
-] (./chapters/backmatter.tex (build/main.bbl [32
+] (./chapters/backmatter.tex (build/main.bbl [34
 
 
 
-] [33]) [34] [35
+] [35]) [36] [37
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
@@ -1649,7 +1637,7 @@ gtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 Tasks\TU/SongtiSC(0)/m/n/12.045
 es\TU/SongtiSC(0)/m/n/12.045 、|
  []
 
-[36
+[38
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
@@ -1677,35 +1665,35 @@ Underfull \hbox (badness 3375) in paragraph at lines 41--42
  指 标 包 括 样 本 次 数、|  成 功 次 数、|  平 均 响 应 时
  []
 
-[37]
+[39]
 File: ../../CodingPlatformBak/output/playwright/recapture/login_local_new.png G
 raphic file (type bmp)
 <../../CodingPlatformBak/output/playwright/recapture/login_local_new.png>
 File: ../../CodingPlatformBak/output/playwright/recapture/login_filled_new.png 
 Graphic file (type bmp)
 <../../CodingPlatformBak/output/playwright/recapture/login_filled_new.png>
- [38]
+ [40]
 File: ../../CodingPlatformBak/output/playwright/recapture/stu_new.png Graphic f
 ile (type bmp)
 <../../CodingPlatformBak/output/playwright/recapture/stu_new.png>
 File: figures/backmatter/ui_event_records-cropped.pdf Graphic file (type pdf)
 <use figures/backmatter/ui_event_records-cropped.pdf>
- [39]
+ [41]
 File: figures/backmatter/ui_login-cropped.pdf Graphic file (type pdf)
 <use figures/backmatter/ui_login-cropped.pdf>
- [40]) [41] [42] (build/main.aux)
+ [42]) [43] [44] (build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32032 strings out of 468168
- 703216 string characters out of 5432816
- 1105837 words of memory out of 5000000
- 60104 multiletter control sequences out of 15000+600000
- 635080 words of font info for 150 fonts, out of 8000000 for 9000
+ 32013 strings out of 468168
+ 702651 string characters out of 5432816
+ 1105901 words of memory out of 5000000
+ 60095 multiletter control sequences out of 15000+600000
+ 635016 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,12n,118p,1195b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main.xdv (48 pages, 623660 bytes).
+Output written on build/main.xdv (50 pages, 628536 bytes).
