@@ -4,13 +4,13 @@
 \vspace{2\baselineskip}
 
 {\song\zihao{-4}\setlength{\baselineskip}{20pt}
-大语言模型在代码生成与错误诊断上的可用性已被多次验证，自然语言交互与个性化反馈两端表现尤为突出。当前编程教学在资源可得性、辅导时效、学习过程追踪和即时反馈上仍有明显短板，入门阶段兴趣滑坡与挫败感并不少见。本文据此设计并实现了一套面向中小学生的智能编程学习平台，尝试在因材施教与教学效率之间找到可行的折中方案。
+大语言模型在代码生成，与错误诊断上的可用性，已获验证。自然语言交互、个性化反馈，两端尤为突出。当前编程教学，在资源可得性、辅导时效、过程追踪，和即时反馈上，仍有短板。入门阶段，兴趣滑坡并不少见。本文据此，设计了一套面向中小学生的智能编程学习平台，在因材施教与教学效率之间，寻找折中。
 
-架构上采用前后端分离方案。交互界面基于 Nuxt 3 与 Vue 3 搭建，样式与组件依托 Tailwind CSS、DaisyUI 完成；核心业务接口与数据管理由 FastAPI、SQLAlchemy 承担。数据持久化选用 SQL Server；Redis 用于缓存加速，教学资源存储使用阿里云 OSS。
+架构上前后端分离。交互界面，基于 Nuxt 3 与 Vue 3 搭建，样式依托 Tailwind CSS、DaisyUI。核心业务，由 FastAPI、SQLAlchemy 承担。数据层选用 SQL Server 持久化，Redis 缓存加速，阿里云 OSS 存放教学资源。
 
-功能方面，覆盖了用户认证、课程与知识点编排等教学管理，在线编程实践、任务管理、师生互动以及教学资源管理。大模型驱动的智能辅学模块承接了自由问答、代码逻辑拆解、编译错误分析、问题分解引导、抽象建模与算法设计指导。考虑到中小学生的认知节奏，提示词策略、输出语气和错误反馈方式均做了针对性调整，反馈逐步给出，而非一次倾倒。
+功能覆盖用户认证、课程编排、在线编程实践、任务管理、师生互动，及教学资源管理。大模型驱动的辅学模块，承接自由问答、代码逻辑拆解、编译错误分析、问题分解引导，以及抽象建模与算法设计指导。针对中小学生认知节奏，提示词策略、输出语气，和错误反馈均做了调整，反馈逐步给出，而非一次倾倒。
 
-全文围绕系统需求分析、总体设计、核心模块实现与功能验证展开。从工程落地情况看，平台已能为学生日常编程练习与教师教学管理提供较为完整的操作支撑，在代码稳定运行、错误反馈、学习进度量化跟踪与资源组织方面已有初步实践基础。后续可在 RAG 私域知识增强、认知模板评估机制以及更细粒度的个性化推荐方向继续拓展。
+全文围绕需求分析、总体设计、核心模块实现与功能验证展开。平台已为学生日常编程练习，与教师教学管理，提供较为完整的操作支撑，在代码稳定运行、错误反馈、进度跟踪与资源组织方面，已有初步实践基础。后续可在 RAG 私域知识增强、认知模板评估，及更细粒度的个性化推荐方向，继续拓展。
 
 \vspace{20pt}
 \noindent{\CJKfontspec[FakeBold=2.5]{Heiti SC}\zihao{-4}关键词：}\song\zihao{-4}大语言模型；编程教育；智能辅学；在线编程；教学平台
@@ -22,13 +22,13 @@
 \vspace{2\baselineskip}
 
 {\fontspec{Times New Roman}\zihao{-4}\setlength{\baselineskip}{20pt}
-The applicability of Large Language Models (LLMs) to code generation and error diagnosis has seen initial validation, with natural-language interaction and personalized feedback standing out in particular. For K-12 programming education, this suggests a pathway that differs from conventional approaches. Traditional instruction still falls short in resource accessibility, timeliness of individualized support, quantitative progress tracking, and real-time feedback efficiency; reduced engagement and heightened frustration during the beginner stage are common. This thesis therefore designs and implements an intelligent programming learning platform for primary and secondary school students, seeking a practical balance between personalized instruction and teaching efficiency.
-
-The platform adopts a decoupled front-end/back-end architecture. Interactive interfaces are built with Nuxt 3 and Vue 3, styled via Tailwind CSS and DaisyUI; business APIs and data management are handled by FastAPI and SQLAlchemy. Persistent storage uses SQL Server; Redis provides caching acceleration; Alibaba Cloud OSS stores educational resources.
-
-Platform functions include user authentication, curriculum and knowledge-point organization, online coding practice, task management, teacher-student interaction, and resource management. An LLM-powered tutoring module supports open-ended Q\&A, code logic explanation, compile-error analysis, problem decomposition guidance, abstract modeling, and algorithm-design guidance. Prompt strategy, response tone, and error-feedback style are adjusted for K-12 learners so that feedback arrives incrementally rather than in a single dump.
-
-The thesis covers requirements analysis, overall design, core-module implementation, and functional verification. The platform can already support daily coding practice and instructional management, with initial foundations in execution stability, error feedback, progress tracking, and resource organization. Future extensions may incorporate RAG-based private knowledge augmentation, cognitive-template evaluation, and finer-grained personalized recommendation.
+The availability of large language models in code generation and error diagnosis has been verified. Natural language interaction and personalized feedback are particularly prominent at both ends. In the current programming teaching, there are still shortcomings in resource availability, counseling timeliness, process tracking, and instant feedback. In the introductory stage, interest landslides are not uncommon. Based on this, this paper designs a set of intelligent programming learning platform for primary and middle school students, and finds a compromise between teaching students in accordance with their aptitude and teaching efficiency. 
+ 
+The front and back ends are separated on the architecture. The interactive interface is built based on Nuxt 3 and Vue 3, and the style relies on Tailwind CSS and DaisyUI. The core business is undertaken by FastAPI and SQLAlchemy. The data layer uses SQL Server persistence, Redis cache acceleration, and Alibaba Cloud OSS to store teaching resources. 
+ 
+The functions cover user authentication, course arrangement, online programming practice, task management, teacher-student interaction, and teaching resource management. The large model-driven auxiliary module undertakes free question answering, code logic disassembly, compilation error analysis, problem decomposition guidance, and abstract modeling and algorithm design guidance. In view of the cognitive rhythm of primary and middle school students, the prompt word strategy, output tone, and error feedback have been adjusted, and the feedback is gradually given, rather than a dumping. 
+ 
+The full text focuses on demand analysis, overall design, core module implementation and functional verification. The platform has provided a relatively complete operational support for students ' daily programming exercises and teachers ' teaching management. It has a preliminary practical basis in terms of stable code operation, error feedback, progress tracking and resource organization. Subsequently, it can continue to expand in the RAG private domain knowledge enhancement, cognitive template evaluation, and more fine-grained personalized recommendation direction.
 
 \vspace{20pt}
 \noindent\fontspec{Times New Roman}\zihao{-4}\textbf{Key Words：}\fontspec{Times New Roman}\zihao{-4}large language model; programming education; intelligent tutoring; online programming; learning platform

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "n8n": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "{",
+        "  \"mcpServers\": {",
+        "    \"@drballs/n8n-mcp-server\": {",
+        "      \"command\": \"npx\",",
+        "      \"args\": [",
+        "        \"-y\",",
+        "        \"@mcp_hub_org/cli@latest\",",
+        "        \"run\",",
+        "        \"@drballs/n8n-mcp-server\"",
+        "      ]",
+        "    }",
+        "  }",
+        "}"
+      ]
+    }
+  }
+}

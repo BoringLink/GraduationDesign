@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.6)  6 MAY 2026 18:25
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.6)  7 MAY 2026 23:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1556,10 +1556,23 @@ File: figures/body/浏览器端代码执行架构图.pdf Graphic file (type pdf)
 <use figures/body/浏览器端代码执行架构图.pdf>
 
 Package fontspec Info: 
-(fontspec)             Script 'CJK' not explicitly supported within font
-(fontspec)             'Songti SC'. Check the typeset output, and if it is
-(fontspec)             okay then ignore this warning. Otherwise a different
-(fontspec)             font should be chosen.
+(fontspec)             Could not resolve font "PingFang SC/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'PingFangSC(0)' created for font 'PingFang
+(fontspec)             SC' with options [Ligatures=TeX,Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"PingFang
+(fontspec)             SC/OT:script=hani;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"PingFang
+(fontspec)             SC/B/OT:script=hani;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"PingFang
+(fontspec)             SC/BI/OT:script=hani;language=dflt;mapping=tex-text;"
 
 File: figures/body/浏览器端代码执行流程图.pdf Graphic file (type pdf)
 <use figures/body/浏览器端代码执行流程图.pdf>
@@ -1609,27 +1622,27 @@ Overfull \hbox (8.88669pt too wide) in paragraph at lines 511--512
 ] [35]) [36] [37
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 []\TU/SongtiSC(0)/m/n/12.045 认 证 平 台 接 口：| \TU/Menlo(0)/m/n/12.045 /platform/co
 ntents\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 /platform/courses\T
 U/SongtiSC(0)/m/n/12.045 、|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 \TU/Menlo(0)/m/n/12.045 /platform/records\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menl
 o(0)/m/n/12.045 /platform/tasks\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/1
 2.045 /platform/knowledges\TU/SongtiSC(0)/m/n/12.045 、|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 \TU/Menlo(0)/m/n/12.045 /platform/recommendations\TU/SongtiSC(0)/m/n/12.045 、| 
 \TU/Menlo(0)/m/n/12.045 /platform/suggestions\TU/SongtiSC(0)/m/n/12.045 、|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 []\TU/SongtiSC(0)/m/n/12.045 数 据 库 模 型 包 括 \TU/Menlo(0)/m/n/12.045 Users\TU/Son
 gtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 Tasks\TU/SongtiSC(0)/m/n/12.045 
 、| \TU/Menlo(0)/m/n/12.045 Contents\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m
@@ -1640,27 +1653,27 @@ es\TU/SongtiSC(0)/m/n/12.045 、|
 [38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 []\TU/SongtiSC(0)/m/n/12.045 为 便 于 论 文 实 验 数 据 收 集，|  后 端 提 供 了 接 口 性 能 采 样 脚 本
 
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 39--40
+Underfull \hbox (badness 3557) in paragraph at lines 45--46
 \TU/Menlo(0)/m/n/12.045 backend/tools/perf_sample.py\TU/SongtiSC(0)/m/n/12.045 
 。|  该 脚 本 在 本 地 以 \TU/TimesNewRoman(1)/m/n/12.045 SQLite \TU/SongtiSC(0)/m/n/12
 .045 和 \TU/TimesNewRoman(1)/m/n/12.045 FakeRedis \TU/SongtiSC(0)/m/n/12.045 复
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 []\TU/SongtiSC(0)/m/n/12.045 脚 本 采 样 的 接 口 包 括：| \TU/Menlo(0)/m/n/12.045 GET /h
 ealth\TU/SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 GET /users/check\TU/
 SongtiSC(0)/m/n/12.045 、| \TU/Menlo(0)/m/n/12.045 POST
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 41--42
+Underfull \hbox (badness 3375) in paragraph at lines 47--48
 \TU/Menlo(0)/m/n/12.045 /platform/run (print)\TU/SongtiSC(0)/m/n/12.045 。|  输 出
  指 标 包 括 样 本 次 数、|  成 功 次 数、|  平 均 响 应 时
  []
@@ -1688,12 +1701,12 @@ L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32013 strings out of 468168
- 702651 string characters out of 5432816
- 1105901 words of memory out of 5000000
- 60095 multiletter control sequences out of 15000+600000
- 635016 words of font info for 142 fonts, out of 8000000 for 9000
+ 32042 strings out of 468168
+ 703547 string characters out of 5432816
+ 1105881 words of memory out of 5000000
+ 60113 multiletter control sequences out of 15000+600000
+ 635080 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,12n,118p,1195b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main.xdv (50 pages, 628536 bytes).
+Output written on build/main.xdv (50 pages, 633656 bytes).
