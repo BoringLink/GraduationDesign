@@ -1,5 +1,0 @@
-BASE=https://codingplatform.mgsai.cn/api
-generated_at=2026-04-06 22:07 CST
-files=18
-fixed_at=2026-04-06 22:09 CST
-fixed: run_security, run_loop, resource_create, resource_permission_put

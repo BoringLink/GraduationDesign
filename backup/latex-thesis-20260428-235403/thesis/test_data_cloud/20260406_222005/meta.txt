@@ -1,3 +1,0 @@
-generated_at: Mon Apr  6 22:20:05 CST 2026
-base: https://codingplatform.mgsai.cn/api
-user: 123

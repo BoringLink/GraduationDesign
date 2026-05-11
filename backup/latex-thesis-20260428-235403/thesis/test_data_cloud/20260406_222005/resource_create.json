@@ -1,1 +1,0 @@
-{"code":200,"status":"SUCCESS","msg":"创建资源成功","error":null,"data":{"id":29,"name":"测试资源-第6章(重试)","content":"用于论文测试留证","code":"print(\"ok\")","textbook_page":"","video_link":"","knowledge_point":"","create_time":"2026-04-06T14:22:37.470000","update_time":"2026-04-06T14:22:37.470000","created_by":"123","permission_level":1,"view_count":0}}
