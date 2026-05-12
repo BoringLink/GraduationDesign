@@ -16,12 +16,12 @@
 
 ## 2) 论文环境与工具（必须优先遵循）
 
-- 操作系统与硬件：`macOS (M1 Pro)`
+- 操作系统与硬件：`MacBook Pro(M1 Pro芯片) + macOS Tahoe`
 - Word文档：`Microsoft Word for Mac 2025` + `LibreOffice 26.2.3`
 - TeX 发行版：`MacTeX`
 - 编译链路：`XeLaTeX` + `latexmk`
 - 文献管理：`BibDesk`
-- 文献检索：`ArXiv`、`Semantic Scholar`（本地配置：`.env.semantic-scholar.local`）
+- 文献检索：`ArXiv API`、`Semantic Scholar API`（本地配置：`.env.semantic-scholar.local`）
 - 论文优化：`thesis-optimizer`（AI检测优化、查重优化、学术润色）
 
 ## 3) Latex论文编译与清理（以实际文件为准）
