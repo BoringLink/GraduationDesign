@@ -10,19 +10,21 @@
 ## 1) 项目定位
 
 - 本仓库以论文工程为主，主要工作域是 `latex/thesis/`。
+- Microsoft Word版本线以 `论文正式版.docx`为基准。
 - `CodingPlatformBak/` 是论文对应代码仓库，默认仅用于阅读实现、运行开发与测试，不做代码改写。
 - 仅在用户明确要求“修改代码”时，才允许对 `CodingPlatformBak/**` 进行最小必要变更。
 
 ## 2) 论文环境与工具（必须优先遵循）
 
 - 操作系统与硬件：`macOS (M1 Pro)`
+- Word文档：`Microsoft Word for Mac 2025` + `LibreOffice 26.2.3`
 - TeX 发行版：`MacTeX`
 - 编译链路：`XeLaTeX` + `latexmk`
 - 文献管理：`BibDesk`
 - 文献检索：`ArXiv`、`Semantic Scholar`（本地配置：`.env.semantic-scholar.local`）
 - 论文优化：`thesis-optimizer`（AI检测优化、查重优化、学术润色）
 
-## 3) 论文编译与清理（以实际文件为准）
+## 3) Latex论文编译与清理（以实际文件为准）
 
 - 以 `latex/thesis/README.md` 为准
 - 在 `latex/thesis` 目录执行：
@@ -33,9 +35,10 @@
 
 ## 4) 论文写作规范
 
+- 以 `论文写作规范.docx`为最高优先级规范。
 - 论文排版严格对齐 `理工类专业毕业论文模板（更新）.doc`。
-- 学术图优先使用 TikZ。
-- 图片题注位于图片下方居中；表格题注位于表格上方居中；均使用 LaTeX 自动编号。
+- Latex写作时学术图优先使用 TikZ。
+- 图片题注位于图片下方居中；表格题注位于表格上方居中；均使用自动编号。
 - 参考文献必须规范引用，且正文内容需真实对应被引文献。
 
 ## 5) 代码仓使用边界（CodingPlatformBak）
